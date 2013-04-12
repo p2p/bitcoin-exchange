@@ -40,6 +40,7 @@ assets between the traders.
 and gets a commission when the deal is executed." (http://en.wikipedia.org/wiki/Broker)
 
 * Anyone can become a broker in this exchange.
+* Two classes of brokers: Class A Broker can settle assets with brokers in other jurisdictions, Class B Broker can only settle assets with a Class A Broker in the same jurisdiction.
 * Each broker has its own order book, and its own asset pairs.
 * The brokers using this exchange can have clients globally or locally.
 * Client orders are always forwarded to the exchange by the brokers. Clients dont need internet access 
@@ -51,3 +52,11 @@ the event of fraud or default.
 * Each broker must comply by local laws in the jurisdiction where the broker is located. 
 * Any legal issue is a matter between brokers or between a broker and its clients.
 * The exchange cannot be held responsible for any complaints because of its decentralized nature.
+
+## Questions:
+* If the exchange should work as a stock exchange instead of a futures exchange: How to prevent short selling assets that the client dont own and the broker cannot lend on the market?
+* Minimum trading size to prevent order spamming? (0.1 BTC)
+* Even trading sizes? (0.1, 0.2, 0.3 ...BTC)
+* Digital tokens to represent the traded assets?
+* Clearing houses or two classes of brokers? 
+* Market makers?
