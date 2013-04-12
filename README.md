@@ -27,6 +27,9 @@ or whatever asset pair the brokers wishes to enable trading in.
 
 
 ## Clearinghouse:
+"A clearing house is a financial institution that provides clearing and settlement services for financial and commodities derivatives and securities transactions. 
+Once a trade has been executed by two counterparties either on an exchange, or in the OTC markets, the trade can be handed over to a clearing house which then steps between the two original traders' clearing firms and assumes the legal counterparty risk for the trade. This process of transferring the trade title to the clearing house is called novation. It can take fractions of seconds in highly liquid futures markets; or days, or even weeks in some OTC markets."
+http://en.wikipedia.org/wiki/Clearing_house_(finance)
 * Trust is used instead of a clearing house - the brokers are responsible for the actual transfer of 
 assets between the traders. 
 * Voluntary rating of the brokers from the clients could be used to indicate the trustworthiness of each broker.
