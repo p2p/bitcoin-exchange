@@ -37,5 +37,5 @@ all of the clients in the specific pool gets matched together.
 
 Brokers that are not part of a broker-pool have their orders processed separately.
 
-Settlement of assets should be made on a daily basis between brokers in a broker-pool in order to minimize the possible loss off assets in
+Settlement of assets should be made on a regular basis (daily or weekly) between brokers in a broker-pool in order to minimize the possible loss off assets in
 the event of fraud or default.
