@@ -22,7 +22,7 @@ against HFT.
 ## Assets:
 * Any asset pair can be traded in the exchange just as in a futures exchange since no real asset 
 is handled through the exchange itself, only orders of assets. 
-* An asset pair can be: Bitcoin traded in US Dollar, 1 Oz Gold in BitCoin, 1 Oz Silver in BitCoin, LiteCoin in BitCoin, Euro in Dollar, 
+* An asset pair can be: Bitcoin traded in US Dollar, BitCoin in Euro, 1 Oz Gold in BitCoin, 1 Oz Silver in BitCoin, LiteCoin in BitCoin, Euro in Dollar, 
 or whatever asset pair the brokers wishes to enable trading in.
 
 
