@@ -40,6 +40,7 @@ assets between the traders.
 and gets a commission when the deal is executed." (http://en.wikipedia.org/wiki/Broker)
 
 * Anyone can become a broker in this exchange.
+* All brokers should use .bit domains as a backup domain
 * Two classes of brokers: Class A Broker can settle assets with brokers in other jurisdictions, Class B Broker can only settle assets with a Class A Broker in the same jurisdiction.
 * Each broker has its own order book, and its own asset pairs.
 * The brokers using this exchange can have clients globally or locally.
