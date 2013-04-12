@@ -4,7 +4,8 @@ The purpose of this project is to build a decentralized p2p exchange where clien
 are matched in one decentralized exchange. Any asset can be traded in this exchange and fees are paid in bitcoin.
 This exchange-broker model is a simplified model of the CME Globex exchange handling futures contracts.
 
-Inspiration: CME Group, #Bitcoin-OTC, Bitcoin, Ripple, BitcoinX, Dark-Exchange, Open-Transactions, p2pool
+Inspiration: github.com/bitcoin/bitcoin, #Bitcoin-OTCgithub.com/bitcoinx, github.com/macourtney/Dark-Exchange, github.com/FellowTraveler/Open-Transactions, github/?/p2pool, 
+retroshare.sourceforge.net, Ripple.com, CME Group, 
 
 
 ## Exchange:
