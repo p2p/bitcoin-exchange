@@ -17,8 +17,8 @@ having advantgage over the rest of the market. Once the orders are matched it is
 
 ## Assets:
 Any asset pair can be traided in the exchange just as in a futures exchange since no real asset is handled through the exchange itself, 
-only orders of assets. An asset pair can be Bitcoin in US Dollar, or 1 Oz Gold in US Dollar or LiteCoin in BitCoin or whatever 
-asset the brokers might enable trading in.
+only orders of assets. An asset pair can be: Bitcoin in US Dollar, 1 Oz Gold in BitCoin, 1 Oz Silver in BitCoin, 
+LiteCoin in BitCoin, Euro in Dollar, or whatever asset pair the brokers wishes to enable trading in.
 
 
 ## Clearinghouse:
