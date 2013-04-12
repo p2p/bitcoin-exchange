@@ -58,6 +58,9 @@ the event of fraud or default.
 * If the exchange should work as a stock exchange instead of a futures exchange: How to prevent short selling assets that the client dont own and the broker cannot lend on the market?
 * Minimum trading size to prevent order spamming? (0.1 BTC)
 * Even trading sizes? (0.1, 0.2, 0.3 ...BTC)
-* Digital tokens to represent the traded assets?
 * Clearing houses or two classes of brokers? 
 * Market makers?
+* Darknet?
+* Digital tokens to represent the traded assets and wallets to handle the tokens?
+
+Discussion on: https://bitcointalk.org/index.php?topic=172705.0;topicseen
