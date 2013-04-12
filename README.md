@@ -35,19 +35,16 @@ Voluntary rating of the brokers from the clients could be used to indicate the t
 "A broker is an individual or party (brokerage firm) that arranges transactions between a buyer and a seller, 
 and gets a commission when the deal is executed." (http://en.wikipedia.org/wiki/Broker)
 
-The brokers accessing this exchange can be based both globally and locally. Their clients dont need any internet access 
-since the clients will never use the exchange directly, client orders are always forwarded to the exchange by 
-the brokers. Anyone can become a broker in this exchange.
-
+The brokers accessing this exchange can be based both globally and locally. Their clients dont need internet access 
+from the exchanges perspective since the clients will never use the exchange directly. 
+Client orders are always forwarded to the exchange by the brokers. 
+Anyone can become a broker in this exchange.
 If several brokers trust each other they can form a broker-pool by adding each other as trustworthy, orders from
 all of the clients in the specific pool get matched together.
-
 Brokers that are not part of a broker-pool have their own order book, their clients will not be able to 
 trade with clients of the other brokers.
-
 Settlement of assets should be made on a regular basis (daily or weekly) between brokers in a broker-pool in order to minimize the possible loss off assets in
 the event of fraud or default.
-
 Each broker must comply by local laws in the jurisdiction where the broker is located. 
 Any legal issue is a matter between brokers or between a broker and its clients.
 The exchange cannot be held responsible for any complaints because of its decentralized nature.
