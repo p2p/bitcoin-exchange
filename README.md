@@ -37,7 +37,7 @@ assets between the traders.
 and gets a commission when the deal is executed." (http://en.wikipedia.org/wiki/Broker)
 
 * Anyone can become a broker in this exchange.
-* The brokers accessing this exchange can be based both globally and locally. 
+* The brokers using this exchange can have clients globally or locally.
 * Client orders are always forwarded to the exchange by the brokers. Clients dont need internet access 
 from the exchanges perspective since the clients will never use the exchange directly. 
 * If several brokers trust each other they can form a broker-pool by adding each other as trustworthy, orders from
