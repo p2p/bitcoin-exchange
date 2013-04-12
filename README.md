@@ -11,8 +11,8 @@ Inspiration: CME Group, #Bitcoin-OTC, Bitcoin, Ripple, BitcoinX, Dark-Exchange, 
 The exchange network is built with the bitcoin network as inspiration. 
 The network has a blockchain of orders that gets processed by miners willing to participate and get rewarded 
 from the brokers with one bitcoin for each N orders processed. Order matching is done once every block, and each block should
-take 5-10 seconds to complete. The order matching is delibarately slow to prevent High Frequency Trading algorithmis having
-having advantgage over the rest of the market. Once the orders are matched it is up to the brokers to settle the traded assets.
+take 10 seconds to complete. The order matching is delibarately slow to prevent High Frequency Trading algorithmis having
+advantgage over the rest of the market. Once the orders are matched it is up to the brokers to settle the traded assets.
 
 
 ## Assets:
