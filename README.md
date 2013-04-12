@@ -45,6 +45,6 @@ Brokers that are not part of a broker-pool have their orders processed separatel
 Settlement of assets should be made on a regular basis (daily or weekly) between brokers in a broker-pool in order to minimize the possible loss off assets in
 the event of fraud or default.
 
-Each broker must comply by local laws in the country where the broker is located. 
+Each broker must comply by local laws in the jurisdiction where the broker is located. 
 Any legal issue is a matter between brokers or between a broker and its clients.
 The exchange cannot be held responsible for any complaints because of its decentralized nature.
