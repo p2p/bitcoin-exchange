@@ -45,7 +45,7 @@ and gets a commission when the deal is executed." (http://en.wikipedia.org/wiki/
 from the exchanges perspective since the clients will never use the exchange directly. 
 * If several brokers trust each other they can form a broker-pool by adding each other as trustworthy, orders from
 all of their clients will get matched together in this pool.
-* Brokers that are not part of a broker-pool have their own order book in the exchange, their clients will not be able to 
+* Independent brokers that are not part of a broker-pool have their own order book in the exchange, their clients will not be able to 
 trade with clients of the other brokers.
 * Settlement of assets should be made on a regular basis (daily or weekly) between brokers in a broker-pool in order to minimize the possible loss off assets in
 the event of fraud or default.
