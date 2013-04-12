@@ -10,19 +10,22 @@ Inspiration: CME Group, #Bitcoin-OTC, Bitcoin, Ripple, BitcoinX, Dark-Exchange, 
 ## Exchange:
 The exchange network is built with the bitcoin network as inspiration. 
 The network has a blockchain of orders that gets processed by miners willing to participate and get rewarded 
-from the brokers with one bitcoin for each N orders processed. Order matching is done once every block, and each block should
-take 10 seconds to complete. The order matching is delibarately slow to prevent High Frequency Trading algorithmis having
-advantgage over the rest of the market. Once the orders are matched it is up to the brokers to settle the traded assets.
+from the brokers with one bitcoin for each N orders processed. Order matching is done once every block, 
+and each block should take 10 seconds to complete. The order matching is delibarately slow to prevent 
+High Frequency Trading algorithmis having advantage over the rest of the market. 
+Once the orders are matched it is up to the brokers to settle the traded assets.
 
 
 ## Assets:
-Any asset pair can be traided in the exchange just as in a futures exchange since no real asset is handled through the exchange itself, 
-only orders of assets. An asset pair can be: Bitcoin in US Dollar, 1 Oz Gold in BitCoin, 1 Oz Silver in BitCoin, 
-LiteCoin in BitCoin, Euro in Dollar, or whatever asset pair the brokers wishes to enable trading in.
+Any asset pair can be traided in the exchange just as in a futures exchange since no real asset 
+is handled through the exchange itself, only orders of assets. An asset pair can be: Bitcoin in US Dollar, 
+1 Oz Gold in BitCoin, 1 Oz Silver in BitCoin, LiteCoin in BitCoin, Euro in Dollar, 
+or whatever asset pair the brokers wishes to enable trading in.
 
 
 ## Clearinghouse:
-Trust is used instead of a clearing house - the brokers are responseble for the actual transfer of assets between the traders.
+Trust is used instead of a clearing house - the brokers are responseble for the actual transfer of 
+assets between the traders. 
 Voluntary rating of the brokers from the clients could be used to indicate the trustworthiness of each broker.
 
 
