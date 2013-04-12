@@ -33,7 +33,7 @@ and gets a commission when the deal is executed." (http://en.wikipedia.org/wiki/
 Anyone can become a broker in this exchange. 
 
 If several brokers trust eachother they can form a broker-pool by adding eachother as trustworthy, orders from
-all clients gets matched together in this pool.
+all of the clients in the specific pool gets matched together.
 
 Brokers that are not part of a broker-pool have their orders processed separately.
 
