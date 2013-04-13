@@ -1,9 +1,10 @@
 bitcoin-exchange
 ================
-The purpose of this project is to build a decentralized p2p exchange where client orders are matched in one decentralized exchange to enable both local and global trading of digital and physical assets. 
-This exchange will consist of many virtual exchanges created by broker alliances.
+The purpose of this project is to build a decentralized p2p exchange where client orders are matched in one global decentralized exchange system.
 
-Any asset can be traded can be traded against any other asset in this exchange and fees are paid in bitcoin.
+This exchange system will consist of many virtual exchanges created by broker alliances which enables both local and global trading of digital and physical assets.
+
+Any asset can be traded against any other asset in this exchange and fees are paid in bitcoin.
 This exchange-broker model is a simplified model of the CME Globex exchange handling futures contracts.
 
 Inspiration: github.com/bitcoin, #Bitcoin-OTC, github.com/bitcoinx, github.com/macourtney/Dark-Exchange, github.com/FellowTraveler/Open-Transactions, github/?/p2pool, 
