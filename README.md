@@ -54,11 +54,12 @@ the event of fraud or default.
 * Each broker must comply with local laws in the jurisdiction where the broker is located. 
 * Any legal issue is a matter between brokers in a virtual exchange or between a broker and its clients.
 * The exchange itself cannot be held responsible for any legal issues.
-* Brokers and Virtual Exchanges will have bitcoin wallets created in the bitcoin blockchain where the send bitcoins in advance to pay for the exchange fees. If the broker-wallet or virtual exchange-wallet is empty no orders are processed for that broker or virtual exchange.
 
 ## Fees
-Fees are taken from the brokers and virtual exchanges to encourage miners to provide computing power to the exchange and to discourage creation of spamming of fake virtual exchanges, brokers and orders. 
-The actual fees must be discussed in the community.
+*Fees are taken from the brokers and virtual exchanges to encourage miners to provide computing power to the exchange and to discourage creation of spamming of fake virtual exchanges, brokers and orders. 
+*Brokers and Virtual Exchanges will have bitcoin wallets created in the bitcoin blockchain where they send bitcoins in advance to pay for the exchange fees. If the broker-wallet or virtual exchange-wallet is empty no orders are processed for that broker or virtual exchange.
+*The actual fees must be discussed in the community.
+
 * Broker periodical fee: 1 BTC per 30 days (18 144 000 blocks)
 * Virtual exchange fee: 10 BTC per 30 days (18 144 000 blocks)
 * 1 BTC per 10 000 Orders forwarded to the Exchange
