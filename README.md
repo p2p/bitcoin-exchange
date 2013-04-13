@@ -1,7 +1,10 @@
 bitcoin-exchange
 ================
 The purpose of this project is to build a decentralized p2p exchange where client orders 
-are matched in one decentralized exchange. Any asset can be traded in this exchange and fees are paid in bitcoin.
+are matched in one decentralized exchange to enable both local and global trading of digital and physical assets. 
+This exchange will consist of many virtual exchanges created by broker alliances.
+
+Any asset can be traded can be traded against any other asset in this exchange and fees are paid in bitcoin.
 This exchange-broker model is a simplified model of the CME Globex exchange handling futures contracts.
 
 Inspiration: github.com/bitcoin, #Bitcoin-OTC, github.com/bitcoinx, github.com/macourtney/Dark-Exchange, github.com/FellowTraveler/Open-Transactions, github/?/p2pool, 
@@ -17,12 +20,14 @@ from the brokers with one bitcoin for each N orders that are forwarded in to the
 advantage over the rest of the market. The orders are not executed as FIFO but in random order as a second protection 
 against HFT. 
 * Once the orders are matched it is up to the brokers to settle the traded assets.
-
+* Transaction history of executed orders will be saved in the blockchain as evidence if dispute would occur between brokers and clients
+* Brokers need to create unique client ids for each of their clients, but the real identity of the client will only be known by the broker. 
 
 ## Assets:
+* Assets can be both digital or physical, example: cryptocurrencies, digital fiat currencies, physical fiat currencies, gold and silver coin, barrel of gasoline
 * Any asset pair can be traded in the exchange just as in a futures exchange since no real asset 
 is handled through the exchange itself, only orders of assets. 
-* An asset pair can be: Bitcoin traded in US Dollar, BitCoin in Euro, 1 Oz Gold in BitCoin, 1 Oz Silver in BitCoin, LiteCoin in BitCoin, Euro in Dollar, 
+* An asset pair can be: Bitcoin traded in US Dollar, BitCoin in Euro, 1 Oz Gold in BitCoin, 1 Oz Silver in BitCoin, LiteCoin in BitCoin, Euro in Dollar, 1 Barrel of Gasoline in Gold
 or whatever asset pair the brokers wishes to enable trading in.
 
 
@@ -34,12 +39,13 @@ http://en.wikipedia.org/wiki/Clearing_house_(finance)
 assets between the traders. 
 * Voluntary rating of the brokers from the clients could be used to indicate the trustworthiness of each broker.
 
-
-## Brokers:
+## Brokers and virtual exchanges
 "A broker is an individual or party (brokerage firm) that arranges transactions between a buyer and a seller, 
 and gets a commission when the deal is executed." (http://en.wikipedia.org/wiki/Broker)
 
 * Anyone can become a broker in this exchange.
+* A broker must either join an existing virtual exchange or create a new virtual exchange where orders will be executed. 
+* Each broker wishing to join a virtual exchange must be approved by the founder of the virtual exchange which is done by mutual exchange of certificas.
 * All brokers should use .bit domains as a backup domain
 * Two classes of brokers: Class A Broker can settle assets with brokers in other jurisdictions, Class B Broker can only settle assets with a Class A Broker in the same jurisdiction.
 * Each broker has its own order book, and its own asset pairs.
@@ -51,8 +57,8 @@ from the exchanges perspective since the clients will never use the exchange dir
 * Settlement of assets should be made on a regular basis (daily or weekly) between brokers in a broker-pool in order to minimize the possible loss off assets in
 the event of fraud or default.
 * Each broker must comply by local laws in the jurisdiction where the broker is located. 
-* Any legal issue is a matter between brokers or between a broker and its clients.
-* The exchange cannot be held responsible for any complaints because of its decentralized nature.
+* Any legal issue is a matter between brokers in a virtual exchange or between a broker and its clients.
+* The exchange itself cannot be held responsible for any complaints.
 
 ## Questions:
 * If the exchange should work as a stock exchange instead of a futures exchange: How to prevent short selling assets that the client dont own and the broker cannot lend on the market?
@@ -62,5 +68,6 @@ the event of fraud or default.
 * Market makers?
 * Darknet?
 * Digital tokens to represent the traded assets and wallets to handle the tokens?
+* Allowing creation of alliances between virtual exchanges?
 
 Discussion on: https://bitcointalk.org/index.php?topic=172705.0;topicseen
