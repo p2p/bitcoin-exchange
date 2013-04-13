@@ -26,7 +26,7 @@ from the brokers with one bitcoin for each N orders that are forwarded in to the
 ## Assets
 * Assets can be both digital or physical, example: cryptocurrencies such as BitCoin and LiteCoin, digital fiat currencies, physical fiat currencies, gold coins, silver coins, barrel of gasoline.
 * Any asset pair can be traded in the exchange just as in a futures exchange since no real asset is handled through the exchange itself, only orders of assets. 
-* An asset pair can be: Bitcoin traded in US Dollar, BitCoin in Euro, 1 Oz Gold in BitCoin, 1 Oz Silver in BitCoin, LiteCoin in BitCoin, Euro in Dollar, 1 Barrel of Gasoline in Gold, 100 chicken eggs in 1 Oz Silver, or whatever asset pair the brokers wishes to enable trading in.
+* An asset pair can be: Bitcoin traded in US Dollar, BitCoin in Euro, 1 Oz Gold in BitCoin, 1 Oz Silver in BitCoin, LiteCoin in BitCoin, Euro in Dollar, 1 Barrel of Gasoline in Gold, 100 chicken eggs in Oz Silver, or whatever asset pair the brokers wishes to enable trading in.
 
 
 ## Clearinghouse:
