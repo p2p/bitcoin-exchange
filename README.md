@@ -8,7 +8,7 @@ Any asset can be traded against any other asset in this exchange and fees are pa
 This exchange-broker model is a simplified model of the CME Globex exchange handling futures contracts.
 
 Inspiration: github.com/bitcoin, #Bitcoin-OTC, github.com/bitcoinx, github.com/macourtney/Dark-Exchange, github.com/FellowTraveler/Open-Transactions, github/?/p2pool, 
-retroshare.sourceforge.net, Ripple.com, CME Group, 
+retroshare.sourceforge.net, Ripple.com, CME Group, https://en.bitcoin.it/wiki/Contracts, https://en.bitcoin.it/wiki/Distributed_markets
 
 
 ## Exchange
