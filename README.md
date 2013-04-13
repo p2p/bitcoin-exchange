@@ -63,8 +63,7 @@ the event of fraud or default.
 * Broker periodical fee: 1 BTC per 30 days (18 144 000 blocks)
 * Virtual exchange fee: 10 BTC per 30 days (18 144 000 blocks)
 * 1 BTC per 10 000 Orders forwarded to the Exchange
-* 1 BTC per 100 000 Orders cancelled from the Exchange
-* 1 BTC per  
+* 1 BTC per 100 000 Orders cancelled from the Exchange  
 
 ## Questions
 * If the exchange should work as a stock exchange instead of a futures exchange: How to prevent short selling assets that the client dont own and the broker cannot lend on the market?
