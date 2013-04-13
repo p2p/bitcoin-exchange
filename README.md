@@ -15,7 +15,9 @@ retroshare.sourceforge.net, Ripple.com, CME Group,
 * The exchange network is built with the bitcoin network as inspiration. 
 * The network has a blockchain of orders that gets processed by miners willing to participate and get rewarded 
 from the brokers with one bitcoin for each N orders that are forwarded in to the exchange. 
-* Order matching is done once every block, and each block should take 10 seconds to complete. 
+* Each block takes around 1 second.
+* Order matching is done once every block. 
+* Order cancelling is delayed for 10 blocks to discourage market manipulation.
 * The order matching is deliberately slow to prevent High Frequency Trading algorithmis having advantage over the rest of the market. The orders are not executed as FIFO but in random order as a second protection against HFT. 
 * Once the orders are matched it is up to the brokers to settle the traded assets.
 * Transaction history of executed orders will be saved in the blockchain as evidence if dispute would occur between brokers and clients
@@ -52,6 +54,16 @@ the event of fraud or default.
 * Each broker must comply with local laws in the jurisdiction where the broker is located. 
 * Any legal issue is a matter between brokers in a virtual exchange or between a broker and its clients.
 * The exchange itself cannot be held responsible for any legal issues.
+* Brokers and Virtual Exchanges will have bitcoin wallets created in the bitcoin blockchain where the send bitcoins in advance to pay for the exchange fees. If the broker-wallet or virtual exchange-wallet is empty no orders are processed for that broker or virtual exchange.
+
+# Fees
+Fees are taken from the brokers and virtual exchanges to encourage miners to provide computing power to the exchange and to discourage creation of spamming of fake virtual exchanges, brokers and orders. 
+The actual fees must be discussed in the community.
+* Broker periodical fee: 1 BTC per 30 days (18 144 000 blocks)
+* Virtual exchange fee: 10 BTC per 30 days (18 144 000 blocks)
+* 1 BTC per 10 000 Orders forwarded to the Exchange
+* 1 BTC per 100 000 Orders cancelled from the Exchange
+* 1 BTC per  
 
 ## Questions:
 * If the exchange should work as a stock exchange instead of a futures exchange: How to prevent short selling assets that the client dont own and the broker cannot lend on the market?
