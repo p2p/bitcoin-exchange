@@ -42,23 +42,23 @@ assets between the traders.
 ## Brokers and virtual exchanges
 "A broker is an individual or party (brokerage firm) that arranges transactions between a buyer and a seller, 
 and gets a commission when the deal is executed." (http://en.wikipedia.org/wiki/Broker)
-
 * Anyone can become a broker in this exchange.
 * A broker must either join an existing virtual exchange or create a new virtual exchange where orders will be executed. 
-* Each broker wishing to join a virtual exchange must be approved by the founder of the virtual exchange which is done by mutual exchange of certificas.
+* Each broker wishing to join a virtual exchange must be approved by the founder of the virtual exchange which is done by mutual exchange of certificates.
+* When several brokers exist in a virtual exchange their order books will merge for each asset pair they have in common and all of their clients orders will get matched together.
+* Creation of a virtual exhange by virtual exchanges is not allowed, therefore trading between virtual exchanges is not possible.
+
 * All brokers should use .bit domains as a backup domain
 * Two classes of brokers: Class A Broker can settle assets with brokers in other jurisdictions, Class B Broker can only settle assets with a Class A Broker in the same jurisdiction.
 * Each broker has its own order book, and its own asset pairs.
 * The brokers using this exchange can have clients globally or locally.
 * Client orders are always forwarded to the exchange by the brokers. Clients dont need internet access 
 from the exchanges perspective since the clients will never use the exchange directly. 
-* If several brokers trust each other they can form a broker-pool by adding each other as trustworthy. Their order books will merge for each asset pair they have in common and all of their clients orders will get matched together in this pool.
-* Independent brokers that are not part of a broker-pool have an isolated order book in the exchange, their clients will not be able to trade with clients of the other brokers.
 * Settlement of assets should be made on a regular basis (daily or weekly) between brokers in a broker-pool in order to minimize the possible loss off assets in
 the event of fraud or default.
 * Each broker must comply by local laws in the jurisdiction where the broker is located. 
 * Any legal issue is a matter between brokers in a virtual exchange or between a broker and its clients.
-* The exchange itself cannot be held responsible for any complaints.
+* The exchange itself cannot be held responsible for any legal issues.
 
 ## Questions:
 * If the exchange should work as a stock exchange instead of a futures exchange: How to prevent short selling assets that the client dont own and the broker cannot lend on the market?
