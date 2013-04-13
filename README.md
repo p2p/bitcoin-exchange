@@ -75,4 +75,4 @@ the event of fraud or default.
 * Digital tokens to represent the traded assets and wallets to handle the tokens?
 * Allowing creation of alliances between virtual exchanges?
 
-Discussion on: https://bitcointalk.org/index.php?topic=172705.0;topicseen
+Discussion on: https://bitcointalk.org/index.php?topic=172705.0
