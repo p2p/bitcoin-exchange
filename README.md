@@ -26,7 +26,7 @@ from the brokers with one bitcoin for each N orders that are forwarded in to the
 
 ## P2P-model 
 We should decide on which P2P-model to use:
-* One worldwide blockchain for the orders.
+* One worldwide blockchain for all virtual exchanges and their orders.
 * Isolated blockchains for each virtual exchange (similiar to bittorrent, peers can choose which torrents to seed). This model would probably result in faster order processing but less stable and secure - but still better than centralized exchanges. Another benefit is that miners can actively discriminate virtual exchanges with bad reputation and instead provide their computing power to trustable virtual exchanges.
 
 ## Market type
