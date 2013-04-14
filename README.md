@@ -56,7 +56,9 @@ http://en.wikipedia.org/wiki/Clearing_house_(finance)
 from the exchanges perspective since the clients will never use the exchange directly. 
 * Settlement of assets should be made on a regular basis (daily or weekly) between brokers in a broker-pool in order to minimize the possible loss off assets in
 the event of fraud or default.
-* Each broker must comply with local laws in the jurisdiction where the broker is located. 
+
+## Legal issues
+* Each virtual exchange must comply with local laws in the jurisdictions where the brokers are located. 
 * Any legal issue is a matter between brokers in a virtual exchange or between a broker and its clients.
 * The exchange itself cannot be held responsible for any legal issues.
 
