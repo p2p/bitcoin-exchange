@@ -23,6 +23,11 @@ from the brokers with one bitcoin for each N orders that are forwarded in to the
 * Transaction history of executed orders will be saved in the blockchain as evidence if dispute would occur between brokers and clients
 * Brokers need to create unique client ids for each of their clients, but the real identity of the clients will only be known by the broker and can only be revealed to authorities of the jurisdiction where the broker is based.
 
+## Market type
+Each virtual exchange will be able to chose from this order processing models:
+* Dealers market: clients trade with market makers and not directly with each other
+* Auction model: clients trade directly with each other
+
 ## Assets
 * Assets can be both digital or physical, example: cryptocurrencies such as BitCoin and LiteCoin, digital fiat currencies, physical fiat currencies, gold coins, silver coins, barrel of gasoline.
 * Any asset pair can be traded in the exchange just as in a futures exchange since no real asset is handled through the exchange itself, only orders of assets. 
