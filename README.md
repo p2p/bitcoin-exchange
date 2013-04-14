@@ -11,7 +11,7 @@ Inspiration: github.com/bitcoin, #Bitcoin-OTC, github.com/bitcoinx, github.com/m
 retroshare.sourceforge.net, Ripple.com, CME Group, https://en.bitcoin.it/wiki/Contracts, https://en.bitcoin.it/wiki/Distributed_markets
 
 
-## Exchange
+## Exchange system
 * The exchange network is built with the bitcoin network as inspiration. 
 * The network has a blockchain of orders that gets processed by miners willing to participate and get rewarded 
 from the brokers with one bitcoin for each N orders that are forwarded in to the exchange. 
@@ -22,6 +22,12 @@ from the brokers with one bitcoin for each N orders that are forwarded in to the
 * Once the orders are matched it is up to the brokers to settle the traded assets.
 * Transaction history of executed orders will be saved in the blockchain as evidence if dispute would occur between brokers and clients
 * Brokers need to create unique client ids for each of their clients, but the real identity of the clients will only be known by the broker and can only be revealed to authorities of the jurisdiction where the broker is based.
+ 
+
+## P2P-model 
+We should decide on which P2P-model to use:
+* One worldwide blockchain for the orders.
+* Isolated blockchains for each virtual exchange (similiar to bittorrent, peers can choose which torrents to seed). This model would probably result in faster order processing but less stable and secure - but still better than centralized exchanges. Another benefit is that miners can actively discriminate virtual exchanges with bad reputation and instead provide their computing power to trustable virtual exchanges.
 
 ## Market type
 Each virtual exchange will be able to chose from this order processing models:
@@ -60,14 +66,14 @@ the event of fraud or default.
 ## Legal issues
 * Each virtual exchange must comply with local laws in the jurisdictions where the brokers are located. 
 * Any legal issue is a matter between brokers in a virtual exchange or between a broker and its clients.
-* The exchange itself cannot be held responsible for any legal issues.
+* The exchange system itself cannot be held responsible for any legal issues. The exchange system will be distributed among thousands of computers around the world and its role is to host the virtual exchanges.
 
 ## Fees
 * Fees are taken from the brokers and virtual exchanges to encourage miners to provide computing power to the exchange and to discourage creation of fake virtual exchanges, brokers and orders. 
 * Brokers and Virtual Exchanges will have bitcoin wallets created in the bitcoin blockchain where they send bitcoins in advance to pay for the exchange fees. If the broker-wallet or virtual exchange-wallet is empty no orders are processed for that broker or virtual exchange.
 * The actual fees must be discussed in the community.
 
-* Broker periodical fee: 1 BTC per 30 days (18 144 000 blocks)
+* Broker fee: 1 BTC per 30 days (18 144 000 blocks)
 * Virtual exchange fee: 10 BTC per 30 days (18 144 000 blocks)
 * 1 BTC per 10 000 Orders forwarded to the Exchange
 * 1 BTC per 100 000 Orders cancelled from the Exchange  
@@ -81,5 +87,6 @@ the event of fraud or default.
 * Darknet?
 * Digital tokens to represent the traded assets and wallets to handle the tokens?
 * Allowing creation of alliances between virtual exchanges?
+* Which P2P model should we apply? Possible to combine a unified worldwide blockchain for some parts of the system and isolated blockchains for parts that are unique for each virtual exchange?
 
 Discussion on: https://bitcointalk.org/index.php?topic=172705.0
