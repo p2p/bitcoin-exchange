@@ -1,14 +1,21 @@
 bitcoin-exchange
 ================
-The purpose of this project is to build a decentralized p2p exchange where client orders are matched in one global decentralized exchange system.
+The purpose of this project is to build a global exchange system backed by bitcoin and p2p technology. This exchange system will host many virtual exchanges created by broker alliances which enables both local and global trading of assets in form of OTC markets. The overall goal of this project is to contribute to a free market economy with the help of bitcoin and decentralization.
 
-This exchange system will consist of many virtual exchanges created by broker alliances which enables both local and global trading of digital and physical assets.
+This exchange system could be used by this kind of markets:
+* FX (Bitcoin & Fiat currencies) 
+* Precious metals
+* Commodities
+* Stocks and Funds
+* Derivatives
+* Auctions
+* Bartering
 
-Any asset can be traded against any other asset in this exchange and fees are paid in bitcoin.
-This exchange-broker model is a simplified model of the CME Globex exchange handling futures contracts.
+The solution described in this file is derived from a collection of ideas proposed at bitcointalk.org and is still being discussed until we reach consensus of a final solution and a detailed architecture. 
 
-Inspiration: github.com/bitcoin, #Bitcoin-OTC, github.com/bitcoinx, github.com/macourtney/Dark-Exchange, github.com/FellowTraveler/Open-Transactions, github/?/p2pool, 
-retroshare.sourceforge.net, Ripple.com, CME Group, https://en.bitcoin.it/wiki/Contracts, https://en.bitcoin.it/wiki/Distributed_markets
+# Inspiration:
+github.com/bitcoin, #Bitcoin-OTC, github.com/bitcoinx, github.com/macourtney/Dark-Exchange, github.com/FellowTraveler/Open-Transactions, github/?/p2pool, 
+retroshare.sourceforge.net, Ripple.com, CME Group, Forex markets, OTC-markets, Western Union, https://en.bitcoin.it/wiki/Contracts, https://en.bitcoin.it/wiki/Distributed_markets, http://en.wikipedia.org/wiki/Peer-to-peer_lending, http://en.wikipedia.org/wiki/Over-the-counter_(finance)
 
 
 ## Exchange system
@@ -32,7 +39,8 @@ We should decide on which P2P-model to use:
 ## Market type
 Each virtual exchange will be able to chose from this order processing models:
 * Dealers market: clients trade with market makers and not directly with each other
-* Auction model: clients trade directly with each other
+* Double auction: clients trade directly with each other, the price is calculated based on supply and demand. http://en.wikipedia.org/wiki/Double_auction
+* English auction with reservation price and time limit: Suitable for sales of huge quantities of an asset, or sales of non standardized assets, such as paintings, cars and real estate.
 
 ## Assets
 * Assets can be both digital or physical, example: cryptocurrencies such as BitCoin and LiteCoin, digital fiat currencies, physical fiat currencies, gold coins, silver coins, barrel of gasoline.
@@ -42,7 +50,6 @@ Each virtual exchange will be able to chose from this order processing models:
 
 ## Clearinghouse:
 "A clearing house is a financial institution that provides clearing and settlement services for financial and commodities derivatives and securities transactions. 
-Once a trade has been executed by two counterparties either on an exchange, or in the OTC markets, the trade can be handed over to a clearing house which then steps between the two original traders' clearing firms and assumes the legal counterparty risk for the trade. This process of transferring the trade title to the clearing house is called novation. It can take fractions of seconds in highly liquid futures markets; or days, or even weeks in some OTC markets."
 http://en.wikipedia.org/wiki/Clearing_house_(finance)
 * Trust is used instead of a clearing house - the brokers are responsible for the actual transfer of assets between the traders. 
 * Voluntary rating of the brokers from the clients could be used to indicate the trustworthiness of each broker.
@@ -73,6 +80,12 @@ the event of fraud or default.
 * Brokers and Virtual Exchanges will have bitcoin wallets created in the bitcoin blockchain where they send bitcoins in advance to pay for the exchange fees. If the broker-wallet or virtual exchange-wallet is empty no orders are processed for that broker or virtual exchange.
 * The actual fees must be discussed in the community.
 
+We could apply one of this fee models:
+* Predefined fee: Static fee during all circumstances until the community changes the fees manually.
+* Parameter based fee: Fee based on the number of one or several of this parameters: number of orders in last N blocks, the VWAP price of BtcUSD the last N Blocks, difficulty of the bitcoin blockchain, difficulty of the exchange blockchain 
+* Free market model: Fees are decided by each virtual exchange, virtual exchanges paying more fee per order will attract more miners.
+
+Example of fees with the predefined model:
 * Broker fee: 1 BTC per 30 days (18 144 000 blocks)
 * Virtual exchange fee: 10 BTC per 30 days (18 144 000 blocks)
 * 1 BTC per 10 000 Orders forwarded to the Exchange
@@ -88,5 +101,6 @@ the event of fraud or default.
 * Digital tokens to represent the traded assets and wallets to handle the tokens?
 * Allowing creation of alliances between virtual exchanges?
 * Which P2P model should we apply? Possible to combine a unified worldwide blockchain for some parts of the system and isolated blockchains for parts that are unique for each virtual exchange?
+* What kind of fee model should we use?
 
 Discussion on: https://bitcointalk.org/index.php?topic=172705.0
